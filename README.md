@@ -74,23 +74,6 @@ authorized work without asking again. Raise scope changes before expanding work.
 
 This remains a prompt instruction. The package does not include a hook or enforce a spending limit.
 
-## Examples
-
-The first scenario is adapted from a real conversation that prompted this project, before the skill existed. Its example response has been rewritten. The other scenarios are illustrative. None is a measured result of using the skill.
-
-**A small release becomes a research project.** The user wants to publish a skill. The assistant proposes experiments, finds the results hard to score, then proposes collecting a more difficult dataset.
-
-> Publishing the skill does not require a claim that it improves performance. A new dataset would help answer that separate research question. I recommend releasing the documented draft and describing the limits of the evidence we have.
-
-**Two runs produce no useful comparison.** Both runs finish, but the metric cannot distinguish the outputs. The next suggestion is to change the model again.
-
-> The last two runs did not tell us whether the method helps. Changing models would leave the measurement problem unresolved. I recommend checking a few raw outputs against the metric before launching another batch.
-
-**Debugging is making progress.** One check rules out the input parser. Another narrows the failure to cache invalidation. The agent continues with the targeted cache check. Two attempts have produced new information, so the skill should not interrupt them merely because the bug remains.
-
-## Status
-
-This is an initial release. It has not been evaluated against a short prompt or in a controlled study. The examples describe intended behavior. Automatic triggering, interpretation of prior decisions, and adherence depend on the agent and its available context. The skill cannot enforce a budget or override the host's instructions.
 
 ## Sources and license
 
@@ -98,7 +81,5 @@ The workflow draws on two MIT-licensed skills:
 
 - [Reflect](https://github.com/alirezarezvani/claude-skills/blob/main/productivity/reflect/skills/reflect/SKILL.md), by Alireza Rezvani, for reassessing direction during a conversation.
 - [Systematic Debugging](https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md), from Jesse Vincent's Superpowers, for questioning an approach after repeated unsuccessful fixes.
-
-Direction Check brings these ideas into experiment planning and scope decisions. Its specific rules cover assistant-added prerequisites, negative research results, and the boundary between an authorized batch and unplanned follow-up work. Reassessment itself is not a new idea.
 
 Released under the [MIT License](LICENSE). Upstream copyright notices are retained there.
