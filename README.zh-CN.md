@@ -1,5 +1,10 @@
 # Direction Check（方向检查）
 
+![Codex](https://img.shields.io/badge/Codex-Skill-blue)
+![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-orange)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+![Research Workflow](https://img.shields.io/badge/Research-Workflow-purple)
+
 <p align="center">
   <a href="README.md">English</a> · <strong>中文</strong>
 </p>
