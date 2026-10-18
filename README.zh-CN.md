@@ -1,4 +1,4 @@
-# Direction Check（方向检查）
+# Direction Check
 
 ![Codex](https://img.shields.io/badge/Codex-Skill-blue)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-orange)
